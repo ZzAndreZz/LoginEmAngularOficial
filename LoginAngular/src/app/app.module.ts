@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
-import { HeaderComponent } from './components/header/header.component';
+import { FormsComponent } from './components/forms/forms.component';
+import { NavComponent } from './components/nav/nav.component'
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HeaderComponent
+    FormsComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
